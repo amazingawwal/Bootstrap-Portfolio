@@ -1,0 +1,17 @@
+
+/* Give the profile picture a round shape */
+.text-white img{
+    border-radius: 50%;
+}
+
+/* justify project card  */
+.justify-card{
+    display: flex;
+    justify-content: center;
+}
+
+/* increase the width of main project card */
+.main-project-card{
+    width: 35rem !important;
+}
+
