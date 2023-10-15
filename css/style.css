@@ -1,9 +1,16 @@
-bkody{background-color: rgb(37, 36, 36);}
+bomdy{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
 
 /* give navbar styling */
 
 .myspace{
-    background-color: #AED2FF;
+    border-bottom: solid 0.2rem #141414;
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    
+    animation: gradient-animation 18s ease infinite;
 }
 
 .mybrand{
@@ -16,21 +23,37 @@ bkody{background-color: rgb(37, 36, 36);}
     font-weight: bold;
 }
 
-/* styling work section */
-#work-section{
-    padding-top:2%;
+/* jumbotron */
+
+.jumbotron{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172) ;
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
 }
 
-#work-section > h2{
-    padding-left: 1%;
-}
+/* styling work section header*/
 
-#work-section > h3{
+.work-header > h3{
     padding-top: 1%;
     padding-bottom: 1%;
     text-align:center;
 }
 
+/* styling main project */
+
+.main-project{
+   
+}
+
+.page-sections{
+    padding-left: 1%;
+    padding-top:2%
+}
+
+/* styling skills section */
+.card-header > h4{
+    text-align: center;
+}
 
 
 /* Give the profile picture a round shape */
@@ -50,4 +73,5 @@ bkody{background-color: rgb(37, 36, 36);}
     
 }
 
-style="height: 30%;  overflow-y:scroll; border: solid 0.002em black; border-radius:2%"
+.skills-card
+{style="height: 30%;  overflow-y:scroll; border: solid 0.002em black; border-radius:2%"}
