@@ -73,5 +73,9 @@ bomdy{
     
 }
 
+footer{
+    padding-top: 2%;
+}
+
 .skills-card
 {style="height: 30%;  overflow-y:scroll; border: solid 0.002em black; border-radius:2%"}
