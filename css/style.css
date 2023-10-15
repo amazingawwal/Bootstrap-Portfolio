@@ -1,3 +1,37 @@
+bkody{background-color: rgb(37, 36, 36);}
+
+/* give navbar styling */
+
+.myspace{
+    background-color: #AED2FF;
+}
+
+.mybrand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 1%;
+}
+
+.main-nav{
+    padding-left: 62%;
+    font-weight: bold;
+}
+
+/* styling work section */
+#work-section{
+    padding-top:2%;
+}
+
+#work-section > h2{
+    padding-left: 1%;
+}
+
+#work-section > h3{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align:center;
+}
+
+
 
 /* Give the profile picture a round shape */
 .text-white img{
